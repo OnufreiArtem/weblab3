@@ -1,0 +1,192 @@
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.first-table {
+    padding: 1px 20px;
+    text-align: center;
+}
+
+.first-table td {
+    padding: 1px 20px;
+    text-align: center;
+}
+
+.text-left > td{
+    text-align: left;
+}
+
+.text-term{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.text-meaning{
+    text-align: left;
+    padding-left: 0px;
+}
+
+.header-bold > td{
+    font-weight: bold;
+}
+
+.second-table{
+    text-align: left;
+}
+
+.second-table td{
+    padding: 5px 20px 5px 5px;
+    background-color: #f1f1f1;
+}
+
+.second-table .header-yellow td{
+    background-color: #ffd000;
+}
+
+.second-table .footer-green td{
+    background-color: #2e5c00;
+}
+.second-table .number-blue{
+    background-color: #71aaff;
+}
+
+
+.third-table{
+    border: 1px solid #3e85f0;
+    text-align: center;
+    border-collapse: unset;
+}
+
+.third-table td{
+    border: 2px solid #3e85f0;
+    padding: 10px;
+}
+
+.third-table .left-align{
+    text-align: left;
+}
+
+.fourth-table{
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+.fourth-table td {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 20px 0 30px 5px;
+    border: 3px solid #791503;
+    background-color: #fad7be;
+    text-align: left;
+   
+}
+
+.fourth-table .menu td{
+    padding: 0 5px 5px 0;
+}
+
+.fourth-table .blue-bgr{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    background-color: blue;
+    color:  #fad7be;
+}
+
+.fourth-table .text-orange{
+    text-transform: uppercase;
+    color: rgb(233, 130, 56);
+    font-size: 22px;
+}
+
+
+.fourth-table .fourth-table-panel{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+
+.fifth-table{
+    border: 1px solid greenyellow;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+.fifth-table .header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fifth-table td{
+    padding: 20px 40px 15px 20px;
+    border: 2px solid greenyellow;
+
+}
+
+.fifth-table .dark-green-bgr{
+    border: 2px solid greenyellow;
+    color: yellow;
+    background-color: #06350a;
+
+}
+
+.fifth-table .light-green-bgr{
+    text-align: center;
+    background-color: #cccc30;
+    font-size: 14px;
+
+}
+
+.fifth-table .grey-bgr{
+    padding-bottom: 80px;
+    font-size: 14px;
+
+}
+
+.fifth-table .footer{
+    font-size: 12px;
+    padding: 5px;
+}
+
+.sixth-table{
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.sixth-table td{
+    padding: 20px;
+    border: 3px solid #791503;
+}
+
+.sixth-table .violet-bgr{
+    padding: 15px;
+    padding-right: 70px;
+    font-size: 18px;
+    background-color: #924b89;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #270727;
+}
+
+
+
+.sixth-table .purple-bgr{
+    background-color: #4d0e4d;
+    text-transform: lowercase;
+    color: wheat;
+}
+
+.sixth-table .pink-bgr{
+    background-color: #e5bce5;
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+}
+
+.sixth-table .yellow-bgr{
+    background-color: wheat;
+    font-size: 14px;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+
+
