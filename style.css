@@ -1,0 +1,67 @@
+.square-ulist{
+    list-style-type: square;
+}
+
+.filled-circle-ulist{
+    list-style-type: disc;
+}
+
+.cirle-ulist{
+    list-style-type: circle;
+}
+
+ol{
+    margin: 0;
+}
+
+.costume-list{
+    margin: 0;
+    list-style: none;
+}
+
+.grad-bullet{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    border-radius: 10px;
+    border: 1px solid #7e7e7e96;
+    padding: 5px;
+    box-shadow: 0 0 10px #00000042; 
+    transition: all .3s;
+
+}
+
+.grad-bullet:hover{
+    box-shadow: 0 10px 10px #0000007e; 
+    
+}
+
+.grad-bullet::before{
+    content: '';
+    display: block;
+    width:  40px;
+    height: 40px;
+    border-radius: 999px;
+    margin-right: 10px;
+    background: linear-gradient(45deg, #a5f790, #04dfd4);    
+}
+
+#harry_potter::before{
+    background: linear-gradient(45deg, #010549, #5d45e4);
+}
+
+#jurassic_park::before{
+    background: linear-gradient(45deg, #640707, #60e445);
+}
+
+#iron_man::before{
+    background: linear-gradient(45deg, #c00000, #e9ba1f);
+}
+
+#home_alone::before{
+    background: linear-gradient(45deg, #fa0202, #f5f3ef);
+}
+
+
+
