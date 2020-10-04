@@ -1,0 +1,98 @@
+:root{
+    --misty-rose: #FFD9CE;
+    --red-divier: #DB5461;
+    --dark--blue: #171738;
+    --steel-blue: #538896;
+    --shadow-color: #00000042;
+}
+
+*{
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: var(--dark--blue);
+    box-shadow: 0 10px 10px var(--shadow-color); 
+    border-bottom: 5px solid var(--red-divier);
+}
+
+.header-title{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: var(--misty-rose);
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.week-title{
+    color: #593c8f4f;
+    margin: 2.5%;
+}
+
+.table-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.schedule-table{
+    width: 95%;
+    border-collapse: collapse;
+    box-shadow: 0 0px 15px var(--shadow-color); 
+    background-color: var(--dark--blue);
+}
+
+.schedule-row{
+    width:100%;
+    /*background-color: var(--misty-rose);*/
+    background-color: white;
+    color: var(--dark--blue)
+
+}
+
+.schedule-row td{
+    padding: 6px;
+    width: 20%;
+    border: 1px solid var(--shadow-color);
+}
+
+.schedule-table .schedule-row-separator{
+    border: none;
+    height: 2px;
+    background-color: var(--red-divier);
+}
+
+.footer{
+    background-color: var(--dark--blue);
+    border-top: 5px solid var(--red-divier);
+}
+
+.footer-title{
+    font-family: 'Sansita Swashed', cursive;
+    color: var(--misty-rose);
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 -10px 10px var(--shadow-color); 
+}
+
+.schedule-header{
+    background-color: var(--dark--blue);
+}
+
+.schedule-header td{
+    border:none; 
+    color: var(--misty-rose);
+    text-align: center;
+    transition: all .3s;
+}
+.schedule-header td:hover{
+    background-color: var(--red-divier);
+    color: white;
+    transform: translateY(-2px);
+    
+}
